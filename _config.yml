@@ -1,3 +1,27 @@
-theme: jekyll-theme-minimal
-title: Aditya Portfolio
-description: Welcome to my portfolio website!
+# Site settings
+title: Aditya Jha | Backend Developer
+email: ngc.aditya010@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Portfolio of Aditya Jha, a backend developer specializing in Python, FastAPI,
+  Django, AWS, and building scalable, efficient web applications and APIs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://Aditya-kr-jha.github.io" # your site's base URL
+github_username:  Aditya-kr-jha
+linkedin_username: adityajha314
+
+# Theme (you can choose others from https://pages.github.com/themes/)
+theme: jekyll-theme-minimal # A clean, simple theme. Popular choices: jekyll-theme-cayman, jekyll-theme-hacker
+
+# Plugins
+plugins:
+  - jekyll-seo-tag # Adds metadata tags for search engines
+
+# Exclude from processing
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
